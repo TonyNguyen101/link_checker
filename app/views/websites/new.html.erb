@@ -1,0 +1,15 @@
+<h1>Website Linker!</h1>
+
+<%= form_for @website do |f|%>
+  <div>
+    <%= f.label :url%>
+    <%= f.text_field :url,  autofocus: true%>
+  </div>
+  <br>
+  <div>
+    <%= f.submit "search" %>
+  </div>
+<% end %>
+
+
+
